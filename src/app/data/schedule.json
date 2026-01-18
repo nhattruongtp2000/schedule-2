@@ -1,0 +1,227 @@
+[
+  {
+    "date": "2026-01-27",
+    "dayName": "Wednesday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "Freelancer",
+    "isBusy": true
+  },
+  {
+    "date": "2026-01-28",
+    "dayName": "Thursday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "Freelancer",
+    "isBusy": true
+  },
+  {
+    "date": "2026-01-29",
+    "dayName": "Friday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "Freelancer",
+    "isBusy": true
+  },
+  {
+    "date": "2026-01-30",
+    "dayName": "Saturday",
+    "isWorkDay": true,
+    "morning": "Freelancer",
+    "afternoon": "Đi chơi",
+    "night": "Đi chơi",
+    "isBusy": false
+  },
+  {
+    "date": "2026-01-31",
+    "dayName": "Sunday",
+    "isWorkDay": true,
+    "morning": "Freelancer",
+    "afternoon": "Đi chơi",
+    "night": "Đi chơi",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-01",
+    "dayName": "Monday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "Freelancer",
+    "isBusy": true
+  },
+  {
+    "date": "2026-02-02",
+    "dayName": "Tuesday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "Freelancer",
+    "isBusy": true
+  },
+  {
+    "date": "2026-02-03",
+    "dayName": "Wednesday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "Freelancer",
+    "isBusy": true
+  },
+  {
+    "date": "2026-02-04",
+    "dayName": "Thursday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "Đi chơi",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-05",
+    "dayName": "Friday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "Year end party",
+    "isBusy": true
+  },
+  {
+    "date": "2026-02-06",
+    "dayName": "Saturday",
+    "isWorkDay": false,
+    "morning": "",
+    "afternoon": "Đi ăn sinh nhật",
+    "night": "Đi ăn sinh nhật",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-07",
+    "dayName": "Sunday",
+    "isWorkDay": false,
+    "morning": "chơi",
+    "afternoon": "Đi chơi",
+    "night": "Đi chơi",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-08",
+    "dayName": "Monday",
+    "isWorkDay": true,
+    "morning": "Đi chơi",
+    "afternoon": "Đi chơi",
+    "night": "Về quê",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-09",
+    "dayName": "Tuesday",
+    "isWorkDay": true,
+    "morning": "Đám cưới",
+    "afternoon": "Đám cưới",
+    "night": "Đám cưới",
+    "isBusy": true
+  },
+  {
+    "date": "2026-02-10",
+    "dayName": "Wednesday",
+    "isWorkDay": true,
+    "morning": "Về quê",
+    "afternoon": "Về quê",
+    "night": "Về quê",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-11",
+    "dayName": "Thursday",
+    "isWorkDay": true,
+    "morning": "Về quê",
+    "afternoon": "Về quê",
+    "night": "Về quê",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-12",
+    "dayName": "Friday",
+    "isWorkDay": true,
+    "morning": "Về quê",
+    "afternoon": "Về quê",
+    "night": "Về quê",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-13",
+    "dayName": "Saturday",
+    "isWorkDay": false,
+    "morning": "Đà Lạt",
+    "afternoon": "Đà Lạt",
+    "night": "Đà Lạt",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-14",
+    "dayName": "Sunday",
+    "isWorkDay": false,
+    "morning": "Đà Lạt",
+    "afternoon": "Đà Lạt",
+    "night": "Đà Lạt",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-15",
+    "dayName": "Monday",
+    "isWorkDay": true,
+    "morning": "Đà Lạt",
+    "afternoon": "Đà Lạt",
+    "night": "Đà Lạt",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-16",
+    "dayName": "Tuesday",
+    "isWorkDay": true,
+    "morning": "Đà Lạt",
+    "afternoon": "Đà Lạt",
+    "night": "Đà Lạt",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-17",
+    "dayName": "Wednesday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-18",
+    "dayName": "Thursday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-19",
+    "dayName": "Friday",
+    "isWorkDay": true,
+    "morning": "",
+    "afternoon": "",
+    "night": "",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-20",
+    "dayName": "Saturday",
+    "isWorkDay": false,
+    "morning": "",
+    "afternoon": "",
+    "night": "",
+    "isBusy": false
+  }
+]

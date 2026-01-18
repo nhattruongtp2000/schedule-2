@@ -2,8 +2,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { Component, signal } from '@angular/core';
 import { FormBuilder, FormsModule } from '@angular/forms';
 import { FormField } from '@angular/forms/signals';
-import { RouterOutlet } from '@angular/router';
- const STORAGE_KEY = 'schedule_v1';
+const STORAGE_KEY = 'schedule_v1';
+import { HttpClient } from '@angular/common/http';
+import defaultSchedule from './data/schedule.json';
+import { isPlatformBrowser } from '@angular/common';
+import { Inject, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -15,19 +18,31 @@ import { RouterOutlet } from '@angular/router';
 
 export class App {
   protected readonly title = signal('schedule-2');
-    schedule: ScheduleDay[] = [];
+  schedule: ScheduleDay[] = [];
+  constructor(@Inject(PLATFORM_ID) private platformId: Object
+  ) { }
 
   ngOnInit() {
-    this.loadFromLocalStorage();
-    if (this.schedule.length === 0) {
-      this.generateDefaultSchedule();
-      this.saveToLocalStorage();
+    if (isPlatformBrowser(this.platformId)) {
+      const saved = localStorage.getItem('schedule');
+
+      if (saved) {
+        this.schedule = JSON.parse(saved);
+      } else {
+        // ✅ NO HTTP
+        this.schedule = structuredClone(defaultSchedule);
+        this.saveToLocalStorage();
+      }
     }
   }
 
+
+
   // 🔹 LocalStorage
   saveToLocalStorage() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(this.schedule));
+    if (isPlatformBrowser(this.platformId)) {
+      localStorage.setItem('schedule', JSON.stringify(this.schedule));
+    }
   }
 
   loadFromLocalStorage() {
@@ -97,7 +112,7 @@ export class App {
     reader.readAsText(file);
   }
 }
- interface ScheduleDay {
+interface ScheduleDay {
   date: string;
   dayName: string;
   isWorkDay: boolean;
