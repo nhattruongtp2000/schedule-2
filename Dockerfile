@@ -26,7 +26,7 @@ FROM nginx:stable-alpine
 COPY --from=build /app/dist/schedule/browser/. /usr/share/nginx/html/
 
 # Copy custom nginx config if needed
- COPY nginx.conf /etc/nginx/conf.d/default.conf
+ #COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose port 80
 EXPOSE 80
