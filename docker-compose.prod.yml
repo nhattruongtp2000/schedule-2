@@ -1,0 +1,9 @@
+services:
+  angular:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: english-app
+    ports:
+      - "4500:80"
+

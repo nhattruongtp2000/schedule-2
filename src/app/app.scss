@@ -1,0 +1,93 @@
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn.secondary {
+  background: #e5e7eb;
+  color: #111;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background: #f3f4f6;
+  padding: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+
+td {
+  padding: 8px;
+  border-top: 1px solid #e5e7eb;
+}
+
+td.date {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+.busy-day {
+  background: red; /* light orange */
+}
+
+.day-off {
+  background: #f3f4f6;
+  opacity: 0.6;
+}
+
+.center {
+  text-align: center;
+}
