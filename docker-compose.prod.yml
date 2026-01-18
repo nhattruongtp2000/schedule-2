@@ -3,7 +3,7 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    container_name: english-app
+    container_name: schedule
     ports:
       - "4500:80"
 
