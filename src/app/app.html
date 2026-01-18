@@ -3,21 +3,13 @@
 
   <!-- Toolbar -->
   <div class="toolbar">
-    <button class="btn primary" (click)="exportJson()">
-      ⬇ Export JSON
-    </button>
+    <button class="btn primary" (click)="exportJson()">⬇ Export JSON</button>
 
     <label class="btn secondary">
       ⬆ Import JSON
-      <input
-        type="file"
-        accept=".json"
-        hidden
-        (change)="importJson($event)"
-      />
+      <input type="file" accept=".json" hidden (change)="importJson($event)" />
     </label>
   </div>
-
   <!-- Schedule Table -->
   <div class="table-wrapper">
     <table>
@@ -37,18 +29,13 @@
         @for (d of schedule; track d) {
         <tr
           [class.busy-day]="d.isBusy"
-          [class.day-off]="!d.isWorkDay"
         >
-          <td class="day-name" data-label="Day">
-            {{ d.dayName }}
-          </td>
+          <td class="day-name">{{ d.dayName }}</td>
 
-          <td class="date" data-label="Date">
-            {{ d.date }}
-          </td>
+          <td class="date">{{ d.date }}</td>
 
           <!-- Work Day -->
-          <td class="center" data-label="Work">
+          <td class="center">
             <input
               type="checkbox"
               [(ngModel)]="d.isWorkDay"
@@ -57,7 +44,7 @@
           </td>
 
           <!-- Busy Day -->
-          <td class="center" data-label="Busy">
+          <td class="center">
             <input
               type="checkbox"
               [(ngModel)]="d.isBusy"
@@ -65,30 +52,24 @@
             />
           </td>
 
-          <!-- Morning -->
-          <td data-label="Morning">
+          <td>
             <input
-              type="text"
               placeholder="Morning..."
               [(ngModel)]="d.morning"
               (ngModelChange)="saveToLocalStorage()"
             />
           </td>
 
-          <!-- Afternoon -->
-          <td data-label="Afternoon">
+          <td>
             <input
-              type="text"
               placeholder="Afternoon..."
               [(ngModel)]="d.afternoon"
               (ngModelChange)="saveToLocalStorage()"
             />
           </td>
 
-          <!-- Night -->
-          <td data-label="Night">
+          <td>
             <input
-              type="text"
               placeholder="Night..."
               [(ngModel)]="d.night"
               (ngModelChange)="saveToLocalStorage()"
