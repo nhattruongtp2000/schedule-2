@@ -85,18 +85,18 @@
     "dayName": "Thursday",
     "isWorkDay": true,
     "morning": "",
-    "afternoon": "",
-    "night": "Year end party",
-    "isBusy": true
+    "afternoon": "Đi ăn sinh nhật",
+    "night": "Đi ăn sinh nhật",
+    "isBusy": false
   },
   {
     "date": "2026-02-06",
     "dayName": "Friday",
     "isWorkDay": true,
     "morning": "",
-    "afternoon": "Đi ăn sinh nhật",
-    "night": "Đi ăn sinh nhật",
-    "isBusy": false
+    "afternoon": "",
+    "night": "Year end party",
+    "isBusy": true
   },
   {
     "date": "2026-02-07",
