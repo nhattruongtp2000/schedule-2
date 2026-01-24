@@ -57,31 +57,30 @@ export class App {
     const start = new Date(2026, 0, 28);
     const end = new Date(2026, 1, 21);
 
-    const days = [
-      'Sunday',
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday'
-    ];
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
     while (start <= end) {
-      const dayIndex = start.getDay(); // 0–6
+      const d = new Date(start); // clone
+
+      const dayIndex = d.getDay();
+
+      const yyyy = d.getFullYear();
+      const mm = String(d.getMonth() + 1).padStart(2, '0');
+      const dd = String(d.getDate()).padStart(2, '0');
 
       this.schedule.push({
-        date: start.toISOString().slice(0, 10),
-        dayName: days[dayIndex],
+        date: `${yyyy}-${mm}-${dd}`,   // ✅ 2026-01-28
+        dayName: days[dayIndex],       // ✅ Wednesday
         isWorkDay: dayIndex >= 1 && dayIndex <= 5,
         morning: '',
         afternoon: '',
         night: '',
-        isBusy: false    // ⭐ NEW
+        isBusy: false
       });
 
       start.setDate(start.getDate() + 1);
     }
+
   }
 
 

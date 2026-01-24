@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-27",
-    "dayName": "Wednesday",
+    "dayName": "Tuesday",
     "isWorkDay": true,
     "morning": "",
     "afternoon": "",
@@ -10,7 +10,7 @@
   },
   {
     "date": "2026-01-28",
-    "dayName": "Thursday",
+    "dayName": "Wednesday",
     "isWorkDay": true,
     "morning": "",
     "afternoon": "",
@@ -19,7 +19,7 @@
   },
   {
     "date": "2026-01-29",
-    "dayName": "Friday",
+    "dayName": "Thursday",
     "isWorkDay": true,
     "morning": "",
     "afternoon": "",
@@ -28,7 +28,7 @@
   },
   {
     "date": "2026-01-30",
-    "dayName": "Saturday",
+    "dayName": "Friday",
     "isWorkDay": true,
     "morning": "Freelancer",
     "afternoon": "Đi chơi",
@@ -37,8 +37,8 @@
   },
   {
     "date": "2026-01-31",
-    "dayName": "Sunday",
-    "isWorkDay": true,
+    "dayName": "Saturday",
+    "isWorkDay": false,
     "morning": "Freelancer",
     "afternoon": "Đi chơi",
     "night": "Đi chơi",
@@ -46,8 +46,8 @@
   },
   {
     "date": "2026-02-01",
-    "dayName": "Monday",
-    "isWorkDay": true,
+    "dayName": "Sunday",
+    "isWorkDay": false,
     "morning": "",
     "afternoon": "",
     "night": "Freelancer",
@@ -55,7 +55,7 @@
   },
   {
     "date": "2026-02-02",
-    "dayName": "Tuesday",
+    "dayName": "Monday",
     "isWorkDay": true,
     "morning": "",
     "afternoon": "",
@@ -64,7 +64,7 @@
   },
   {
     "date": "2026-02-03",
-    "dayName": "Wednesday",
+    "dayName": "Tuesday",
     "isWorkDay": true,
     "morning": "",
     "afternoon": "",
@@ -73,7 +73,7 @@
   },
   {
     "date": "2026-02-04",
-    "dayName": "Thursday",
+    "dayName": "Wednesday",
     "isWorkDay": true,
     "morning": "",
     "afternoon": "",
@@ -82,7 +82,7 @@
   },
   {
     "date": "2026-02-05",
-    "dayName": "Friday",
+    "dayName": "Thursday",
     "isWorkDay": true,
     "morning": "",
     "afternoon": "",
@@ -91,8 +91,8 @@
   },
   {
     "date": "2026-02-06",
-    "dayName": "Saturday",
-    "isWorkDay": false,
+    "dayName": "Friday",
+    "isWorkDay": true,
     "morning": "",
     "afternoon": "Đi ăn sinh nhật",
     "night": "Đi ăn sinh nhật",
@@ -100,7 +100,7 @@
   },
   {
     "date": "2026-02-07",
-    "dayName": "Sunday",
+    "dayName": "Saturday",
     "isWorkDay": false,
     "morning": "chơi",
     "afternoon": "Đi chơi",
@@ -109,8 +109,8 @@
   },
   {
     "date": "2026-02-08",
-    "dayName": "Monday",
-    "isWorkDay": true,
+    "dayName": "Sunday",
+    "isWorkDay": false,
     "morning": "Đi chơi",
     "afternoon": "Đi chơi",
     "night": "Về quê",
@@ -118,7 +118,7 @@
   },
   {
     "date": "2026-02-09",
-    "dayName": "Tuesday",
+    "dayName": "Monday",
     "isWorkDay": true,
     "morning": "Đám cưới",
     "afternoon": "Đám cưới",
@@ -127,7 +127,7 @@
   },
   {
     "date": "2026-02-10",
-    "dayName": "Wednesday",
+    "dayName": "Tuesday",
     "isWorkDay": true,
     "morning": "Về quê",
     "afternoon": "Về quê",
@@ -136,7 +136,7 @@
   },
   {
     "date": "2026-02-11",
-    "dayName": "Thursday",
+    "dayName": "Wednesday",
     "isWorkDay": true,
     "morning": "Về quê",
     "afternoon": "Về quê",
@@ -145,7 +145,7 @@
   },
   {
     "date": "2026-02-12",
-    "dayName": "Friday",
+    "dayName": "Thursday",
     "isWorkDay": true,
     "morning": "Về quê",
     "afternoon": "Về quê",
@@ -154,8 +154,8 @@
   },
   {
     "date": "2026-02-13",
-    "dayName": "Saturday",
-    "isWorkDay": false,
+    "dayName": "Friday",
+    "isWorkDay": true,
     "morning": "Đà Lạt",
     "afternoon": "Đà Lạt",
     "night": "Đà Lạt",
@@ -163,7 +163,7 @@
   },
   {
     "date": "2026-02-14",
-    "dayName": "Sunday",
+    "dayName": "Saturday",
     "isWorkDay": false,
     "morning": "Đà Lạt",
     "afternoon": "Đà Lạt",
@@ -172,6 +172,15 @@
   },
   {
     "date": "2026-02-15",
+    "dayName": "Sunday",
+    "isWorkDay": false,
+    "morning": "Đà Lạt",
+    "afternoon": "Đà Lạt",
+    "night": "Đà Lạt",
+    "isBusy": false
+  },
+  {
+    "date": "2026-02-16",
     "dayName": "Monday",
     "isWorkDay": true,
     "morning": "Đà Lạt",
@@ -180,17 +189,8 @@
     "isBusy": false
   },
   {
-    "date": "2026-02-16",
-    "dayName": "Tuesday",
-    "isWorkDay": true,
-    "morning": "Đà Lạt",
-    "afternoon": "Đà Lạt",
-    "night": "Đà Lạt",
-    "isBusy": false
-  },
-  {
     "date": "2026-02-17",
-    "dayName": "Wednesday",
+    "dayName": "Tuesday",
     "isWorkDay": true,
     "morning": "",
     "afternoon": "",
@@ -199,7 +199,7 @@
   },
   {
     "date": "2026-02-18",
-    "dayName": "Thursday",
+    "dayName": "Wednesday",
     "isWorkDay": true,
     "morning": "",
     "afternoon": "",
@@ -208,7 +208,7 @@
   },
   {
     "date": "2026-02-19",
-    "dayName": "Friday",
+    "dayName": "Thursday",
     "isWorkDay": true,
     "morning": "",
     "afternoon": "",
@@ -217,8 +217,8 @@
   },
   {
     "date": "2026-02-20",
-    "dayName": "Saturday",
-    "isWorkDay": false,
+    "dayName": "Friday",
+    "isWorkDay": true,
     "morning": "",
     "afternoon": "",
     "night": "",
